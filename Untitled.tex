@@ -1,0 +1,117 @@
+\documentclass[handout, 9pt]{beamer}
+\usepackage[font=scriptsize]{caption}
+\usepackage{setspace}
+\usepackage{amsfonts}
+\usepackage{graphicx}
+\usepackage{bbm}
+\usepackage[flushleft]{threeparttable}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, automata, positioning, quotes}
+\usepackage{subcaption}
+\usepackage{lipsum}
+
+% Custom changes
+\usepackage[dvipsnames]{xcolor} % Colors
+\setbeamerfont{frametitle}{size=\fontsize{13}{17}}
+\setbeamersize{text margin left=4.5mm, text margin right=4.5mm} 
+\newcommand\setItemnumber[1]{\setcounter{enumi}
+{\numexpr#1-1\relax}}
+\setlength\belowcaptionskip{-1pt}
+\setbeamertemplate{frametitle}{%
+    \usebeamerfont{frametitle}\insertframetitle%
+    \vphantom{g}% To avoid fluctuations per frame
+    \vspace*{0.05\baselineskip}% Add space before the rule
+    \hrule% Uncomment to see desired effect, without a full-width hrule
+    \par\vspace*{-\baselineskip}% <-- reduce vertical space after rule
+}
+\addtobeamertemplate{frametitle}{\vskip 1ex}{}
+\setlength{\tabcolsep}{14pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.1} % Default value: 1
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,      
+    citecolor=blue,
+    urlcolor=blue
+    }
+
+\usefonttheme{serif} 
+
+\setbeamertemplate{footline}[frame number]
+
+\makeatletter
+\newcommand{\vast}{\bBigg@{4}}
+\newcommand{\Vast}{\bBigg@{6}}
+\makeatother
+
+\setbeamertemplate{itemize items}[circle]
+\setbeamertemplate{itemize subitem}{\scriptsize$\blacktriangleright$}
+
+% Document 
+\title{\vspace{0.1cm}\\
+\huge \textbf{Title:\\
+Title}}
+\author{\small \textsc{Author1 \hspace{1.8cm} Author2
+\vspace{0.1cm}\\
+(Affiliation) \hspace{1cm} (Affiliation)} 
+\vspace{2cm}\\
+\textsc{XX.XX.XXXX}
+\vspace{0.1cm}\\
+\textsc{Workshop}
+\vspace{0.1cm}\\
+\textsc{Institution}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\setstretch{1.01}
+
+\begin{frame}{\textbf{Motivation} 
+\hspace{9.3cm}
+\hyperlink{A1}{\beamergotobutton{Button}}}
+\label{Motivation}
+\vspace{0.6cm}
+\begin{itemize}
+\item Line 1
+\vspace{0.25cm}
+\begin{itemize}\setlength\itemsep{0.7em}
+\item Line 1.1 
+\item Line 1.2
+\end{itemize}
+
+\vspace{0.6cm}
+
+\item Line2 
+\vspace{0.25cm}
+\begin{itemize}\setlength\itemsep{0.7em}
+\item Line2.1
+\item Line2.1
+\end{itemize}
+
+\vspace{0.6cm}
+
+\item We study....
+
+\vspace{0.6cm}
+
+\textbf{Research Question}
+
+\end{itemize}
+\end{frame}
+
+\begin{frame}
+    \begin{center}
+        \Huge \textbf{Appendix}
+    \end{center}
+\end{frame}
+
+\begin{frame}{\textbf{Appendix Slide}
+\hspace{7.3cm}
+\hyperlink{Motivation}{\beamerreturnbutton{Back: Motivation}}}
+\label{A1}
+    
+\end{frame}
+
+\end{document}
