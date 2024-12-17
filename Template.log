@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  17 DEC 2024 19:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.25)  17 DEC 2024 20:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**Untitled.tex
-(./Untitled.tex
+**Template.tex
+(./Template.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-02-18>
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamer.cls
@@ -939,75 +939,66 @@ Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
  (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
 File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
 ))
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
 
-./Untitled.tex:15: LaTeX Error: Option clash for package xcolor.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15 \setbeamerfont
-                   {frametitle}{size=\fontsize{13}{17}}
-? 
-Package hyperref Info: Option `colorlinks' set `true' on input line 37.
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamer/beamerfontthemeserif.sty)
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 63.
+(hyperref)                removing `\new@ifnextchar' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 63.
+(hyperref)                removing `\\' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 63.
+(hyperref)                removing `\new@ifnextchar' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 63.
+(hyperref)                removing `\\' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 63.
+(hyperref)                removing `\new@ifnextchar' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 63.
+(hyperref)                removing `\\' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 63.
+(hyperref)                removing `\new@ifnextchar' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 63.
+(hyperref)                removing `\\' on input line 62.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\new@ifnextchar' on input line 66.
+(hyperref)                removing `\new@ifnextchar' on input line 65.
 
-No file Untitled.aux.
-\openout1 = `Untitled.aux'.
+No file Template.aux.
+\openout1 = `Template.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 65.
+LaTeX Font Info:    ... okay on input line 65.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1064,7 +1055,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 66.
+Package hyperref Info: Link coloring ON on input line 65.
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1078,11 +1069,11 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count342
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 65.
+LaTeX Info: Redefining \pageref on input line 65.
+LaTeX Info: Redefining \nameref on input line 65.
 \@outlinefile=\write5
-\openout5 = `Untitled.out'.
+\openout5 = `Template.out'.
 
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/translator/translator-basic-dicti
@@ -1113,17 +1104,17 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: threeparttable package is loaded.
 Package caption Info: End \AtBeginDocument code.
 
-No file Untitled.nav.
+No file Template.nav.
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 102
+LaTeX Font Info:    Trying to load font information for U+msa on input line 101
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 102
+LaTeX Font Info:    Trying to load font information for U+msb on input line 101
 .
 
 (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1131,11 +1122,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
-(Font)              size <12> substituted on input line 102.
+(Font)              size <12> substituted on input line 101.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
-(Font)              size <12> substituted on input line 102.
+(Font)              size <12> substituted on input line 101.
 
 [2
 
@@ -1145,15 +1136,15 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <13> not available
 
 ]
 \tf@nav=\write6
-\openout6 = `Untitled.nav'.
+\openout6 = `Template.nav'.
 
 \tf@toc=\write7
-\openout7 = `Untitled.toc'.
+\openout7 = `Template.toc'.
 
 \tf@snm=\write8
-\openout8 = `Untitled.snm'.
+\openout8 = `Template.snm'.
 
- (./Untitled.aux)
+ (./Template.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1162,11 +1153,11 @@ LaTeX Font Warning: Size substitutions with differences
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
-Package rerunfilecheck Warning: File `Untitled.out' has changed.
+Package rerunfilecheck Warning: File `Template.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `Untitled.out':
+Package rerunfilecheck Info: Checksums for `Template.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
@@ -1186,7 +1177,7 @@ r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
 ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
 l/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/
 texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Untitled.pdf (4 pages, 79442 bytes).
+Output written on Template.pdf (4 pages, 79442 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  55 compressed objects within 1 object stream
